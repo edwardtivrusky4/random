@@ -6,7 +6,7 @@ reading_type = input(
     "Would you like to know about your Past, Present, or Future?  ")
 
 #Generate a random number from 1-22, then assign a card name based on that number
-card_drawn = 1 #random.randint(1, 22)
+card_drawn = random.randint(1, 22)
 if card_drawn == 1:
     card_drawn = "The Fool"
 if card_drawn == 2:
